@@ -100,13 +100,16 @@ body{
 /* .container_body{
     background-color: #e9e9e9;
 } */
-.container_body .row{
-    background: url('https://media.istockphoto.com/vectors/shoes-icon-set-on-white-background-vector-id1156917478?k=6&m=1156917478&s=170667a&w=0&h=YP78XKeGEUNPKTH1Vihpg6_IQbj_mMxk-WsUKDaboeA=') !important;
-    background-repeat: repeat;
-    background-size: cover;
-}
 
 .footer{
     background-color: #521b58;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 2);
+}
+
+/* login page */
+.login-page #login_username_label{
+    font-family: 'Fascinate', cursive;
+}
+.login_card_form {
+    transform: translate(0,-50px);
 }
