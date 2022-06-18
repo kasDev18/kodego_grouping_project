@@ -1,0 +1,40 @@
+.card{
+    height: 350px;
+    width: 230px;
+}
+.card-title img{
+    transform: translate(0,-20px);
+}
+.card-title p{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.card p,span,i{
+    color: #dc74e9;
+}
+.card-header p:nth-last-child(){
+    margin-left: 75px;
+}
+.card_rating{
+    margin-left: -10px;
+    font-size: 12px;
+}
+.card_body_first_col{
+    transform: translate(90px,25px);
+}
+.card_rating i{
+    margin-left: -2px;
+    color: yellow;
+    font-size: 8px;
+}
+.card_deliver{
+    margin-left: 20px;
+}
+.card_deliver .fa-truck-ramp-box{
+    transform: translate(0,5px);
+    font-size: 12px;
+}
+.card_deliver .deliver_price {
+    font-size: 15px;
+}
