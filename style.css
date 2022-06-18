@@ -38,8 +38,26 @@
 .card_deliver .deliver_price {
     font-size: 15px;
 }
-.top_ads .carousel-inner{
-    height: 100px;
+.upper_nav{
+    height: 30px;
+    background-color: white;
+    margin: 3px;
+}
+.upper_nav span{
+    color: #45054d;
+    padding: 3px;
+}
+.upper_nav button{
+    border-color: 2px solid #45054d;
+}
+.upper_nav button:hover{
+    /* border-color: 2px solid #45054d; */
+    background-color: #45054d !important;
+    transition: .5s;
+}
+.upper_nav button:hover span{
+    /* border-color: 2px solid #45054d; */
+    color: #fff;
 }
 .top_ads .carousel-inner img{
     height: 100px;
