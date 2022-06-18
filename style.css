@@ -38,3 +38,44 @@
 .card_deliver .deliver_price {
     font-size: 15px;
 }
+.top_ads .carousel-inner{
+    height: 100px;
+}
+.top_ads .carousel-inner img{
+    height: 100px;
+}
+.header{
+    height: 70px;
+    /* background: linear-gradient(#d891e1, #a85ab1,#74247e, #45054d); */
+    background: linear-gradient(#45054d,#521b58, #74247e);
+}
+.header_searchBar{
+    transform: translate(-110px,20px);
+}
+.header_searchBtn .btn{
+    /* height: 10px; */
+    transform: translate(-185px, 15px);
+    height: 25px;
+}
+.header_navigation{
+    margin-left: -160px;
+}
+.header_navigation button:nth-child(1){
+    border-color: #f96332 !important;
+}
+.header_navigation button:nth-child(1):hover{
+    border-color: white !important;
+    background-color: #f96332 !important;
+    color: #fff;
+    transition: .5s;
+}
+.header_navigation button:nth-child(1) i:hover{
+    color: #fff;
+}
+.header_navigation span{
+    font-family: 'Knewave', cursive;
+}
+.container_body{
+    /* background: #3b0842; */
+}
+
