@@ -54,12 +54,10 @@ body{
     border-color: 2px solid #45054d;
 }
 .upper_nav button:hover{
-    /* border-color: 2px solid #45054d; */
     background-color: #45054d !important;
     transition: .5s;
 }
 .upper_nav button:hover span{
-    /* border-color: 2px solid #45054d; */
     color: #fff;
 }
 .top_ads .carousel-inner img{
@@ -75,7 +73,6 @@ body{
     transform: translate(-110px,20px);
 }
 .header_searchBtn .btn{
-    /* height: 10px; */
     transform: translate(-185px, 15px);
     height: 25px;
 }
@@ -97,10 +94,6 @@ body{
 .header_navigation span{
     font-family: 'Knewave', cursive;
 }
-/* .container_body{
-    background-color: #e9e9e9;
-} */
-
 .footer{
     background-color: #521b58;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 2);
@@ -112,4 +105,11 @@ body{
 }
 .login_card_form {
     transform: translate(0,-50px);
+}
+.login_footer_left {
+    float: left;
+}
+  
+.login_footer_right {
+    float: right;
 }
