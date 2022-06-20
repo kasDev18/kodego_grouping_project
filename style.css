@@ -118,12 +118,6 @@ body{
 }
 
 /* homepage */
-.carousel-inner {
-    border-radius: 10px;
-    height:300px;
-    width: 71.3rem;
-    background: #45054d;
-}
 .category_container{
     /* border-radius: 10px;
     background: linear-gradient(#45054d,#521b58, #74247e);  */
