@@ -46,12 +46,15 @@ body{
     background-color: white;
     margin: 3px;
 }
+.upper_nav button{
+    border: none;
+}
+.upper_nav a{
+    transform: translate(0,5px);
+}
 .upper_nav span{
     color: #45054d;
     padding: 3px;
-}
-.upper_nav button{
-    border-color: 2px solid #45054d;
 }
 .upper_nav button:hover{
     background-color: #45054d !important;
@@ -112,4 +115,64 @@ body{
   
 .login_footer_right {
     float: right;
+}
+
+/* homepage */
+.carousel-inner {
+    border-radius: 10px;
+    height:300px;
+    width: 71.3rem;
+    background: #45054d;
+}
+.category_container{
+    /* border-radius: 10px;
+    background: linear-gradient(#45054d,#521b58, #74247e);  */
+    /* background: url('https://thumbs.dreamstime.com/b/shoes-icons-set-background-graphic-web-design-simple-vector-sign-internet-concept-symbol-website-button-mobile-146226331.jpg');
+    background-size: contain;
+    backdrop-filter: 10px; */
+    border-radius: 10px;
+    border: 2px solid #c8c5c9 !important;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 2);
+}
+.category_container h1{
+    font-family: 'Fascinate', cursive;
+    color: #74247e !important;
+}
+.category_container .card img{
+    width: 12rem; 
+    height: 200px;
+    border-radius: 50%;
+}
+.category_container .card-deck{
+    transform: translate(0, 0px);
+}
+.category_container .card-deck h4{
+    font-family: 'Fascinate', cursive;
+    color: #74247e !important;
+}
+.homepage_footer {
+    background: linear-gradient(#45054d,#521b58, #74247e);
+}
+.homepage_container_body {
+    background: linear-gradient(#45054d,#521b58, #74247e);
+}
+.card_nike {
+    background: url('./images/Circle\ Shoes\ \(kas\)/Nike.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.card_puma {
+    background: url('./images/Circle\ Shoes\ \(kas\)/Puma.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.card_under_armour {
+    background: url('./images/Circle\ Shoes\ \(kas\)/UnderArmour.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.card_fila {
+    background: url('./images/Circle\ Shoes\ \(kas\)/Fila.png') no-repeat;
+    background-size: contain;
+    background-position: center;
 }
