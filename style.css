@@ -73,6 +73,7 @@ i {
   /* background: linear-gradient(#d891e1, #a85ab1,#74247e, #45054d); */
   background: linear-gradient(#45054d, #521b58, #74247e);
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 2);
+  width: 100vw;
 }
 .header_searchBar {
   transform: translate(-110px, 20px);
@@ -123,9 +124,9 @@ i {
 .category_container {
   /* border-radius: 10px;
     background: linear-gradient(#45054d,#521b58, #74247e);  */
-  /* background: url('https://thumbs.dreamstime.com/b/shoes-icons-set-background-graphic-web-design-simple-vector-sign-internet-concept-symbol-website-button-mobile-146226331.jpg');
-    background-size: contain;
-    backdrop-filter: 10px; */
+  background: url('https://thumbs.dreamstime.com/z/flat-lay-top-view-fitness-accessories-white-background-purple-dumbbells-sport-shoes-copy-space-healthy-lifestyle-140546831.jpg') no-repeat;
+    background-size: cover;
+    backdrop-filter: 10px;
   border-radius: 10px;
   border: 2px solid #c8c5c9 !important;
   box-shadow: 1px 1px 12px rgba(0, 0, 0, 2);
@@ -133,6 +134,7 @@ i {
 .category_container h1 {
   font-family: "Fascinate", cursive;
   color: #74247e !important;
+  text-decoration: underline;
 }
 .category_container .card img {
   width: 12rem;
@@ -144,7 +146,6 @@ i {
 }
 .category_container .card-deck h4 {
   font-family: "Fascinate", cursive;
-  color: #74247e !important;
 }
 
 /* FLASH DEALS  */
@@ -209,3 +210,4 @@ i {
   background-size: contain;
   background-position: center;
 }
+/* End of Homepage */
