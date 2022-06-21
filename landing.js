@@ -94,7 +94,7 @@ const categoryTitleFila = document.querySelector('.card_title_fila');
 
 categoryNike.addEventListener('mouseover', function(){
   categoryTitleNike.style.background = 'linear-gradient(#45054d, #521b58, #74247e)'
-  categoryTitleNike.style.border = '1px solid black';
+  
   categoryTitleNike.style.borderRadius = '5px';
   categoryTitleNike.style.color = 'white';  
   categoryTitleNike.style.transition = '.5s';
@@ -108,7 +108,7 @@ categoryNike.addEventListener('mouseout', function(){
 
 categoryPuma.addEventListener('mouseover', function(){
     categoryTitlePuma.style.background = 'linear-gradient(#45054d, #521b58, #74247e)'
-    categoryTitlePuma.style.border = '1px solid black';
+    
     categoryTitlePuma.style.borderRadius = '5px';
     categoryTitlePuma.style.color = 'white';    
     categoryTitlePuma.style.transition = '.5s';
@@ -122,7 +122,7 @@ categoryPuma.addEventListener('mouseout', function(){
 
 categoryUnderArmour.addEventListener('mouseover', function(){
     categoryTitleUA.style.background = 'linear-gradient(#45054d, #521b58, #74247e)'
-    categoryTitleUA.style.border = '1px solid black';
+  
     categoryTitleUA.style.borderRadius = '5px';
     categoryTitleUA.style.color = 'white';    
     categoryTitleUA.style.transition = '.5s';
@@ -136,7 +136,7 @@ categoryUnderArmour.addEventListener('mouseout', function(){
 
 categoryFila.addEventListener('mouseover', function(){
     categoryTitleFila.style.background = 'linear-gradient(#45054d, #521b58, #74247e)'
-    categoryTitleFila.style.border = '1px solid black';
+    
     categoryTitleFila.style.borderRadius = '5px';
     categoryTitleFila.style.color = 'white';    
     categoryTitleFila.style.transition = '.5s';
