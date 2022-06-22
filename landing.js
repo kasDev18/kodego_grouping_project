@@ -33,7 +33,7 @@ var x = setInterval(function() {
 }, 1000);
 
 // Search Button Links
-function searchBtn(e){
+searchBtn = () =>{
     location.href = './search_page.html'    
 }
 searchBtnCategoryPuma = () => {
@@ -68,7 +68,7 @@ uaCategoryLogo = () => {
 
 
 
-// homepage carousel
+// homepage category
 carouselLink1= () => {
     location.href = './category_page_nike.html'    
 }

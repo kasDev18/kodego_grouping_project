@@ -10,6 +10,28 @@ const passwordLogin = document.getElementById("passwordLogin");
 const submitBtn = document.querySelector('.submit_btn');
 const checkBoxLogin = document.getElementById('exampleInputCheckBox');
 
+submitBtn.addEventListener('click', function(e){
+      if(emailLogin.value !== 'admin@gmail.com'){
+        emailLogin.style.borderColor = 'red'
+        alert('Wrong Credentials!');
+        e.preventDefault()
+      }else if(passwordLogin.value !== '123456'){
+        passwordLogin.style.borderColor = 'red'
+        alert('Wrong Credentials!');
+        e.preventDefault()
+      }
+      else if(usernameLogin.value === '') {
+        usernameLogin.style.borderColor = 'red'
+      }
+      else if (passwordLogin.value === '') {
+        passwordLogin.style.borderColor = 'red'
+      }
+      else if (emailLogin.value === '') {
+        emailLogin.style.borderColor = 'red'
+      } 
+})
+
+
 checkBox = () => {
   submitBtn.style.background = '#f96332';
   checkBoxLogin.disabled = true;
