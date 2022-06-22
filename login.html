@@ -90,32 +90,32 @@
               </div>
               <div class="form-group mb-4">
                 <h3 for="exampleInputEmail1" id="login_username_label"></h3>
-                <input type="text" class="form-control" id="login_username" aria-describedby="emailHelp" placeholder="Enter username">
+                <input type="text" class="form-control" id="login_username" aria-describedby="emailHelp" placeholder="Enter username" required>
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" id="exampleInput" aria-describedby="emailHelp" placeholder="Enter email">
+                <input type="email" class="form-control" id="emailLogin" aria-describedby="emailHelp" placeholder="Enter email" required>
               </div>
               <div class="form-group">
-                <input type="password" class="form-control" id="exampleInput" placeholder="Password">
+                <input type="password" class="form-control" id="passwordLogin" placeholder="Password" required>
               </div>
             
               <div class="form-check">
                 <label class="form-check-label">
-                  <input class="form-check-input text-primary" type="checkbox" id="exampleInputCheckBox">
+                  <input class="form-check-input text-primary" type="checkbox" id="exampleInputCheckBox" onclick="checkBox()" required>
                   <span class="form-check-sign bg-white" style="color: #f96332;"></span>
                   Check me out
                 </label>
               </div>
               <div class="card-footer text-center">
-                <button class="btn btn-primary btn-round btn-lg btn-block">
-                    <a>
-                        <div class="d-flex text-center">
-                            <span class="spinner-grow spinner-grow-sm text-info d-none" role="status" aria-hidden="true"></span>
-                            <span class="spinner-grow spinner-grow-sm text-warning d-none" role="status" aria-hidden="true"></span>
-                            <span class="spinner-grow spinner-grow-sm text-danger d-none" role="status" aria-hidden="true"></span>
-                            <div><span class="text-white">Get Started</span></div>
-                        </div>
-                    </a>
+                <button class="btn btn-transparent btn-round btn-lg btn-block submit_btn">
+                  <div class="text-center">
+                    <div class="d-none spinners_login">
+                      <span class="spinner-grow spinner-grow_1 spinner-grow-sm text-info" role="status" aria-hidden="true"></span>
+                      <span class="spinner-grow spinner-grow_2 spinner-grow-sm text-warning" role="status" aria-hidden="true"></span>
+                      <span class="spinner-grow spinner-grow_3 spinner-grow-sm text-success" role="status" aria-hidden="true"></span>
+                    </div>
+                    <div class="text-center submit_text"><span class="text-white">Get Started</span></div>
+                  </div>
                 </button>
                 <div class="login_footer_left">
                   <h6>
