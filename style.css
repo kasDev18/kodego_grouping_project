@@ -124,9 +124,9 @@ i {
 .category_container {
   /* border-radius: 10px;
     background: linear-gradient(#45054d,#521b58, #74247e);  */
-  background: url('./images/Category/Category.jpg') no-repeat;
-    background-size: cover;
-    backdrop-filter: 10px;
+  background: url("./images/Category/Category.jpg") no-repeat;
+  background-size: cover;
+  backdrop-filter: 10px;
   border-radius: 10px;
   border: 2px solid #c8c5c9 !important;
   box-shadow: 1px 1px 12px rgba(0, 0, 0, 2);
@@ -154,7 +154,7 @@ i {
   border: 2px solid #c8c5c9 !important;
   box-shadow: 1px 1px 12px rgba(0, 0, 0, 2);
   padding: 0;
-  background: url('https://png.pngtree.com/background/20210710/original/pngtree-business-pop-wind-banner-background-picture-image_976724.jpg');
+  background: url("https://png.pngtree.com/background/20210710/original/pngtree-business-pop-wind-banner-background-picture-image_976724.jpg");
 }
 .flash_deals h1 {
   font-family: "Fascinate", cursive;
@@ -183,53 +183,53 @@ i {
 .flash_deals .card-deck {
   transform: translate(0, 0px);
 }
-.flash_deals_banner{
+.flash_deals_banner {
   height: 300px;
-  background: url('./images/Flash\ Sales/FlashSales.jpg');
+  background: url("./images/Flash\ Sales/FlashSales.jpg");
 }
-.flash_deals_image_1{
+.flash_deals_image_1 {
   background: url("./images/Shoes/Nike\ Jordan/1.jpg") no-repeat;
   background-size: contain;
   background-position: center;
   background-color: #f7f4f8;
 }
-.flash_deals_image_2{
+.flash_deals_image_2 {
   background: url("./images/Shoes/Nike\ Jordan/2.jpg") no-repeat;
   background-size: contain;
   background-position: center;
   background-color: #f7f4f8;
 }
-.flash_deals_image_3{
+.flash_deals_image_3 {
   background: url("./images/Shoes/Puma/1.jpg") no-repeat;
   background-size: contain;
   background-position: center;
   background-color: #f7f4f8;
 }
-.flash_deals_image_4{
+.flash_deals_image_4 {
   background: url("./images/Shoes/Puma/5/5-1.jpg") no-repeat;
   background-size: contain;
   background-position: center;
   background-color: #f7f4f8;
 }
-.flash_deals_image_5{
+.flash_deals_image_5 {
   background: url("./images/Shoes/Underarmour/1.jpg") no-repeat;
   background-size: contain;
   background-position: center;
   background-color: #f7f4f8;
 }
-.flash_deals_image_6{
+.flash_deals_image_6 {
   background: url("./images/Shoes/Underarmour/3.jpg") no-repeat;
   background-size: contain;
   background-position: center;
   background-color: #f7f4f8;
 }
-.flash_deals_image_7{
+.flash_deals_image_7 {
   background: url("./images/Shoes/Fila/1.jpg") no-repeat;
   background-size: contain;
   background-position: center;
   background-color: #f7f4f8;
 }
-.flash_deals_image_8{
+.flash_deals_image_8 {
   background: url("./images/Shoes/Fila/2.jpg") no-repeat;
   background-size: contain;
   background-position: center;
@@ -241,12 +241,12 @@ i {
   height: 50px !important;
   width: 50px !important;
 }
-.carousel-cell h4{
+.carousel-cell h4 {
   font-family: "Fascinate", cursive;
   color: #74247e !important;
 }
 #countdown_timer {
-  border: 4mm ridge rgba(211, 220, 50, .6) !important;
+  border: 4mm ridge rgba(211, 220, 50, 0.6) !important;
   color: #fff !important;
   padding: 5px;
   margin-bottom: -20px;
@@ -285,3 +285,43 @@ i {
 footer {
   width: 102vw;
 }
+
+/* Category Page */
+/* Nike */
+.nike_category .card:hover{
+  border: 3px solid red;
+}
+.nike_category .card {
+  height: 400px;
+}
+/* End of Nike */
+
+/* Puma */
+.puma_category .card:hover{
+  border: 3px solid red;
+}
+.puma_category .card {
+  height: 400px;
+}
+/* End of Puma */
+
+/* Fila */
+.fila_category .card:hover{
+  border: 3px solid red;
+}
+.fila_category .card {
+  height: 400px;
+}
+/* End of Fila */
+
+/* Under Armour */
+.under_armour_category .card:hover{
+  border: 3px solid red;
+}
+.under_armour_category .card {
+  height: 400px;
+}
+/* End of Under Armour */
+
+
+/* End of Category Page */
