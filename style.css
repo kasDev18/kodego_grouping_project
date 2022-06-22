@@ -322,6 +322,14 @@ footer {
   height: 400px;
 }
 /* End of Under Armour */
-
-
 /* End of Category Page */
+
+/* Search Page */
+.search_category .dropdown-toggle{
+  background: linear-gradient(#45054d, #521b58, #74247e);
+}
+.search_category .dropdown-item:hover{
+  background: linear-gradient(#45054d, #521b58, #74247e);
+  color: #fff;
+}
+/* End of Search Page */
