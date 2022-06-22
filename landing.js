@@ -148,4 +148,18 @@ categoryFila.addEventListener('mouseout', function(){
     categoryTitleFila.style.transition = '.5s';
 })
 
+// Carousel Links
+carouselImageNike = () =>{
+    location.href = './ad_page_nike.html';  
+}
+carouselImagePuma = () =>{  
+    location.href = './ad_page_Puma.html';  
+}
+carouselImageFila = () =>{
+    location.href = './ad_page_fila.html';  
+}
+carouselImageUnderArmour = () =>{
+    location.href = './ad_page_underarmour.html';  
+}
+
 
