@@ -332,6 +332,9 @@ footer {
   background: linear-gradient(#45054d, #521b58, #74247e);
   color: #fff;
 }
+.search_page_item{
+  background: linear-gradient(#45054d, #521b58, #74247e);
+}
 /* End of Search Page */
 .ad_page_nike {
   background: linear-gradient(#45054d, #521b58, #74247e);

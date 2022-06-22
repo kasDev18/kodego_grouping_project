@@ -147,7 +147,5 @@ categoryFila.addEventListener('mouseout', function(){
     categoryTitleFila.style.color = 'black';    
     categoryTitleFila.style.transition = '.5s';
 })
-  
-
 
 
