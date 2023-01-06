@@ -1,483 +1,534 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- icon -->
-    <link rel="icon" type="image/x-icon" href="./images/logo/Sample-with-purple-bg.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- icon -->
+  <link rel="icon" type="image/x-icon" href="./images/logo/Sample-with-purple-bg.png" />
 
-    <!-- CSS Files -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../assets/css/now-ui-kit.css?v=1.2.0" rel="stylesheet" />
-    <link rel="stylesheet" href="./style.css">
+  <!-- CSS Files -->
+  <link href="../kodego_grouping_project/assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../kodego_grouping_project/assets/css/now-ui-kit.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css">
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/1f5ccdbc5a.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1f5ccdbc5a.js" crossorigin="anonymous"></script>
 
-    <!-- Font Style -->
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Kanit&family=Knewave&family=Roboto&family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">    
-    <title>Shoe.com | Deals</title>
+  <!-- Flickity CSS CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+  <!-- Font Style -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Kanit&family=Knewave&family=Roboto&family=Sansita+Swashed:wght@700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Fascinate&family=Macondo&family=Nanum+Gothic+Coding&family=New+Rocker&family=Outfit:wght@300&family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto+Mono&family=Roboto+Slab&family=Roboto:wght@300;400&family=Tiro+Bangla&family=Zen+Antique&display=swap"
+    rel="stylesheet">
+  <title>Shoe.com | Deals</title>
 </head>
+
 <body>
-    <div class="d-flex justify-content-end upper_nav mx-3 bg-transparent">
-        <button class="bg-transparent"><span class="mx-3">Notifications</span></button>
-        <button class="bg-transparent"><span class="mx-2">Sign-Up</span></button>
-        <span>|</span>
-        <a href="./login.html"><button class="bg-transparent"><span class="mx-2">Login</span></button></a>
-    </div>
-    <div class="header">
-        <div class="row">
-            <div class="col-3">
-                <img src="./images/logo/Logo-Transparent-Background.png" onclick="searchPageLogo()" class="pt-2 px-5" alt="" width="" height="60px">
-            </div>  
-            <div class="col-5 header_searchBar">
-                <div class="form-group">
-                    <input type="text" class="form-control border rounded" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search...">
-                  </div>
-            </div>
-            <div class=" header_searchBtn">
-                <a href="">
-                    <button class="btn btn-primary btn-icon btn-round">
-                        <i class="fa-solid fa-magnifying-glass-dollar text-white p-1"></i>
-                    </button>
-                </a>
-            </div>
-            <div class="col-4 d-flex header_navigation mt-2 ">
-                <button type="button" class="btn bg-transparent border"><i class="fa-solid fa-cart-arrow-down text-white"></i></button>
-                <button type="button" class="btn bg-transparent btn-primary">HELP</button>
-                <span type="button" class="btn bg-transparent btn-primary">
-                    Follow Us!  
-                    <img src="./images/media_icons/facebook-logo-2019.png" alt="" class="mx-2">
-                    <img src="./images/media_icons/twitter.png" alt="" class="mx-2">
-                    <img src="./images/media_icons/instagram.png" alt="" class="mx-2">
-                </span>
-            </div>
+  <div class="d-flex justify-content-end upper_nav mx-3 bg-transparent">
+    <button class="bg-transparent"><span class="mx-3">Notifications</span></button>
+    <button class="bg-transparent"><span class="mx-2">Sign-Up</span></button>
+    <span>|</span>
+    <a href="./login.html"><button class="bg-transparent"><span class="mx-2">Login</span></button></a>
+  </div>
+  <div class="header">
+    <div class="row">
+      <div class="col-3">
+        <img src="./images/logo/Logo-Transparent-Background.png" onclick="searchPageLogo()" class="pt-2 px-5" alt=""
+          width="" height="60px">
+      </div>
+      <div class="col-5 header_searchBar">
+        <div class="form-group">
+          <input type="text" class="form-control border rounded" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Search...">
         </div>
+      </div>
+      <div class=" header_searchBtn">
+        <a href="">
+          <button class="btn btn-primary btn-icon btn-round">
+            <i class="fa-solid fa-magnifying-glass-dollar text-white p-1"></i>
+          </button>
+        </a>
+      </div>
+      <div class="col-4 d-flex header_navigation mt-2 ">
+        <button type="button" class="btn bg-transparent border"><i
+            class="fa-solid fa-cart-arrow-down text-white"></i></button>
+        <button type="button" class="btn bg-transparent btn-primary">HELP</button>
+        <span type="button" class="btn bg-transparent btn-primary">
+          Follow Us!
+          <img src="./images/media_icons/facebook-logo-2019.png" alt="" class="mx-2">
+          <img src="./images/media_icons/twitter.png" alt="" class="mx-2">
+          <img src="./images/media_icons/instagram.png" alt="" class="mx-2">
+        </span>
+      </div>
     </div>
-    <div class="container_body mt-3">
-        <div class="container shadow-lg">
-            <div class="row d-flex justify-content-center search_category">
-                <div class="column d-flex mx-5">
-                  <div class="dropdown mx-2">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Category
-                    </a>
-                  
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <a class="dropdown-item" href="#">Nike</a>
-                      <a class="dropdown-item" href="#">Puma</a>
-                      <a class="dropdown-item" href="#">Fila</a>
-                      <a class="dropdown-item" href="#">Under Armour</a>
-                    </div>
-                  </div>
-                  <div class="dropdown mx-2">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Ratings
-                    </a>
-                  
-                    <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink">
-                      <a class="dropdown-item" href="#">
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-muted"></i>
-                        <i class="fa-solid fa-star text-muted"></i>
-                        <i class="fa-solid fa-star text-muted"></i>
-                        <i class="fa-solid fa-star text-muted"></i>
-                      </a>
-                      <a class="dropdown-item" href="#">
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-muted"></i>
-                        <i class="fa-solid fa-star text-muted"></i>
-                        <i class="fa-solid fa-star text-muted"></i>
-                      </a>
-                      <a class="dropdown-item" href="#">
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-muted"></i>
-                        <i class="fa-solid fa-star text-muted"></i>
-                      </a>
-                      <a class="dropdown-item" href="#">
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-muted"></i>
-                      </a>
-                      <a class="dropdown-item" href="#">
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                        <i class="fa-solid fa-star text-warning"></i>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="dropdown mx-2">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Price
-                    </a>
-                  
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <a class="dropdown-item" href="#">
-                        <i class="fa-solid fa-peso-sign">1500 -</i> 
-                        <i class="fa-solid fa-peso-sign">2500</i>
-                      </a>
-                      <a class="dropdown-item" href="#">
-                        <i class="fa-solid fa-peso-sign">2501 -</i> 
-                        <i class="fa-solid fa-peso-sign">3500</i>
-                      </a>
-                      <a class="dropdown-item" href="#">
-                        <i class="fa-solid fa-peso-sign">3501 -</i> 
-                        <i class="fa-solid fa-peso-sign">4500</i>
-                      </a>
-                      <a class="dropdown-item" href="#">
-                        <i class="fa-solid fa-peso-sign">4501 -</i> 
-                        <i class="fa-solid fa-peso-sign">Up...</i>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="dropdown mx-2">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Deals
-                    </a>
-                  
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <a class="dropdown-item" href="#"><i class="fa-solid fa-circle-dollar-to-slot"> Discounted Item</i></a>
-                      <a class="dropdown-item" href="#"><i class="fa-solid fa-gifts"> Gifts and Vouchers</i></a>
-                      <a class="dropdown-item" href="#"><i class="fa-solid fa-fire-flame-curved"> Hot Products!</i></a>
-                      <a class="dropdown-item" href="#"><i class="fa-solid fa-thumbs-up"> Best Seller</i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="row search_page_item m-3">
-                  <div class="col-3 p-3">
-                    <img src="images/Shoes/Edited/Nike/1-SHoes.jpg" alt="">
-                  </div>
-                  <div class="col">
-                    <div>
-                      <h2 class="text-white mt-3">Air Jordan XXXVI low</h2>
-                      <blockquote class="text-white">After-Sales Service Provided Video Technical Support · Application For Commercial</blockquote>
-                    </div>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star-half-stroke text-warning"> 4.5 star</i>
-                    <div>
-                        <hr class="bg-light">
-                    </div>
-                    <div><h4><i class="fa-solid fa-peso-sign text-white"> 5,260</i></h4></div>
-                    <div class="d-flex">
-                      <span class="badge badge-primary mx-1"><i class="fa-solid fa-phone text-white"> Contact Seller</i></span>
-                      <span class="badge badge-info mx-1"><i class="fa-solid fa-comment-dots text-white"> Chat Now!</i></span>
-                    </div>
-                  </div>
-                </div>
-                <div class="row search_page_item m-3">
-                  <div class="col-3 p-3">
-                    <img src="images/Shoes/Edited/Nike/2.jpg" alt="">
-                  </div>
-                  <div class="col">
-                    <div>
-                      <h2 class="text-white mt-3">Jordan .5 'Why Not?'</h2>
-                      <blockquote class="text-white">After-Sales Service Provided Video Technical Support · Application For Commercial</blockquote>
-                    </div>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star-half-stroke text-warning"> 4.5 star</i>
-                    <div>
-                        <hr class="bg-light">
-                    </div>
-                    <div><h4><i class="fa-solid fa-peso-sign text-white"> 3,500</i></h4></div>
-                    <div class="d-flex">
-                      <span class="badge badge-primary mx-1"><i class="fa-solid fa-phone text-white"> Contact Seller</i></span>
-                      <span class="badge badge-info mx-1"><i class="fa-solid fa-comment-dots text-white"> Chat Now!</i></span>
-                    </div>
-                  </div>
-                </div>
-                <div class="row search_page_item m-3">
-                  <div class="col-3 p-3">
-                    <img src="images/Shoes/Edited/Fila/1.jpg" alt="">
-                  </div>
-                  <div class="col">
-                    <div>
-                      <h2 class="text-white mt-3">Fila Heritage Sneakers</h2>
-                      <blockquote class="text-white">After-Sales Service Provided Video Technical Support · Application For Commercial</blockquote>
-                    </div>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star-half-stroke text-warning"> 4.5 star</i>
-                    <div>
-                        <hr class="bg-light">
-                    </div>
-                    <div><h4><i class="fa-solid fa-peso-sign text-white"> 6,952</i></h4></div>
-                    <div class="d-flex">
-                      <span class="badge badge-primary mx-1"><i class="fa-solid fa-phone text-white"> Contact Seller</i></span>
-                      <span class="badge badge-info mx-1"><i class="fa-solid fa-comment-dots text-white"> Chat Now!</i></span>
-                    </div>
-                  </div>
-                </div>
-                <div class="row search_page_item m-3">
-                  <div class="col-3 p-3">
-                    <img src="images/Shoes/Edited/Fila/2.jpg" alt="">
-                  </div>
-                  <div class="col">
-                    <div>
-                      <h2 class="text-white mt-3">Fila Heritage QTR</h2>
-                      <blockquote class="text-white">After-Sales Service Provided Video Technical Support · Application For Commercial</blockquote>
-                    </div>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star-half-stroke text-warning"> 4.5 star</i>
-                    <div>
-                        <hr class="bg-light">
-                    </div>
-                    <div><h4><i class="fa-solid fa-peso-sign text-white"> 5,260</i></h4></div>
-                    <div class="d-flex">
-                      <span class="badge badge-primary mx-1"><i class="fa-solid fa-phone text-white"> Contact Seller</i></span>
-                      <span class="badge badge-info mx-1"><i class="fa-solid fa-comment-dots text-white"> Chat Now!</i></span>
-                    </div>
-                  </div>
-                </div>
-                <div class="row search_page_item m-3">
-                  <div class="col-3 p-3">
-                    <img src="images/Shoes/Edited/Puma/1.jpg" alt="">
-                  </div>
-                  <div class="col">
-                    <div>
-                      <h2 class="text-white mt-3">Low Top Lace Trainers</h2>
-                      <blockquote class="text-white">After-Sales Service Provided Video Technical Support · Application For Commercial</blockquote>
-                    </div>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star-half-stroke text-warning"> 4.5 star</i>
-                    <div>
-                        <hr class="bg-light">
-                    </div>
-                    <div><h4><i class="fa-solid fa-peso-sign text-white"> 7,464</i></h4></div>
-                    <div class="d-flex">
-                      <span class="badge badge-primary mx-1"><i class="fa-solid fa-phone text-white"> Contact Seller</i></span>
-                      <span class="badge badge-info mx-1"><i class="fa-solid fa-comment-dots text-white"> Chat Now!</i></span>
-                    </div>
-                  </div>
-                </div>
-                <div class="row search_page_item m-3">
-                  <div class="col-3 p-3">
-                    <img src="images/Shoes/Edited/Puma/2.jpg" alt="">
-                  </div>
-                  <div class="col">
-                    <div>
-                      <h2 class="text-white mt-3">Ca Pro Classic Sneakers</h2>
-                      <blockquote class="text-white">After-Sales Service Provided Video Technical Support · Application For Commercial</blockquote>
-                    </div>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star-half-stroke text-warning"> 4.5 star</i>
-                    <div>
-                        <hr class="bg-light">
-                    </div>
-                    <div><h4><i class="fa-solid fa-peso-sign text-white"> 2,637</i></h4></div>
-                    <div class="d-flex">
-                      <span class="badge badge-primary mx-1"><i class="fa-solid fa-phone text-white"> Contact Seller</i></span>
-                      <span class="badge badge-info mx-1"><i class="fa-solid fa-comment-dots text-white"> Chat Now!</i></span>
-                    </div>
-                  </div>
-                </div>
-                <div class="row search_page_item m-3">
-                  <div class="col-3 p-3">
-                    <img src="images/Shoes/Edited/UnderArmour/1.jpg" alt="">
-                  </div>
-                  <div class="col">
-                    <div>
-                      <h2 class="text-white mt-3">Machina 3 Daylight</h2>
-                      <blockquote class="text-white">After-Sales Service Provided Video Technical Support · Application For Commercial</blockquote>
-                    </div>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star-half-stroke text-warning"> 4.5 star</i>
-                    <div>
-                        <hr class="bg-light">
-                    </div>
-                    <div><h4><i class="fa-solid fa-peso-sign text-white"> 4,444</i></h4></div>
-                    <div class="d-flex">
-                      <span class="badge badge-primary mx-1"><i class="fa-solid fa-phone text-white"> Contact Seller</i></span>
-                      <span class="badge badge-info mx-1"><i class="fa-solid fa-comment-dots text-white"> Chat Now!</i></span>
-                    </div>
-                  </div>
-                </div>
-                <div class="row search_page_item m-3">
-                  <div class="col-3 p-3">
-                    <img src="images/Shoes/Edited/UnderArmour/2.jpg" alt="">
-                  </div>
-                  <div class="col">
-                    <div>
-                      <h2 class="text-white mt-3">Unisex Curry Flow Pod</h2>
-                      <blockquote class="text-white">After-Sales Service Provided Video Technical Support · Application For Commercial</blockquote>
-                    </div>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star text-warning"></i>
-                    <i class="fa-solid fa-star-half-stroke text-warning"> 4.5 star</i>
-                    <div>
-                        <hr class="bg-light">
-                    </div>
-                    <div><h4><i class="fa-solid fa-peso-sign text-white"> 2,547</i></h4></div>
-                    <div class="d-flex">
-                      <span class="badge badge-primary mx-1"><i class="fa-solid fa-phone text-white"> Contact Seller</i></span>
-                      <span class="badge badge-info mx-1"><i class="fa-solid fa-comment-dots text-white"> Chat Now!</i></span>
-                    </div>
-                  </div>
-                </div>
+  </div>
+  <div class="container_body mt-3">
+    <div class="container shadow-lg">
+      <div class="row d-flex justify-content-center search_category">
+        <div class="column d-flex mx-5">
+          <div class="dropdown mx-2">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Category
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Nike</a>
+              <a class="dropdown-item" href="#">Puma</a>
+              <a class="dropdown-item" href="#">Fila</a>
+              <a class="dropdown-item" href="#">Under Armour</a>
             </div>
-        </div>
-    </div>
-    <br>
-        <footer class="text-center text-lg-start bg-light text-muted homepage_footer">
-          <!-- Section: Social media -->
-          <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-            <!-- Left -->
-            <div class="me-5 d-none d-lg-block">
-              <span>Get connected with us on social networks:</span>
-            </div>
-            <!-- Left -->
-  
-            <!-- Right -->
-            <div class="mx-5">
-              <a href="" class="me-4 text-reset">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="" class="me-4 text-reset">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="" class="me-4 text-reset">
-                <i class="fab fa-google"></i>
-              </a>
-              <a href="" class="me-4 text-reset">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="" class="me-4 text-reset">
-                <i class="fab fa-linkedin"></i>
-              </a>
-              <a href="" class="me-4 text-reset">
-                <i class="fab fa-github"></i>
-              </a>
-            </div>
-            <!-- Right -->
-          </section>
-          <!-- Section: Social media -->
-  
-          <!-- Section: Links  -->
-          <section class="">
-            <div class="container text-center text-md-start mt-5">
-              <!-- Grid row -->
-              <div class="row mt-3">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                  <!-- Content -->
-                  <h6 class="text-uppercase fw-bold mb-4"><i class="fas fa-gem me-3"></i>Company name</h6>
-                  <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <!-- Grid column -->
-  
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <!-- Links -->
-                  <h6 class="text-uppercase fw-bold mb-4">Products</h6>
-                  <p>
-                    <a href="#!" class="text-reset">Angular</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">React</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">Vue</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">Laravel</a>
-                  </p>
-                </div>
-                <!-- Grid column -->
-  
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <!-- Links -->
-                  <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
-                  <p>
-                    <a href="#!" class="text-reset">Pricing</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">Settings</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">Orders</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">Help</a>
-                  </p>
-                </div>
-                <!-- Grid column -->
-  
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                  <!-- Links -->
-                  <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                  <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-                  <p>
-                    <i class="fas fa-envelope me-3"></i>
-                    info@example.com
-                  </p>
-                  <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                  <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-                </div>
-                <!-- Grid column -->
-              </div>
-              <!-- Grid row -->
-            </div>
-          </section>
-          <!-- Section: Links  -->
-  
-          <!-- Copyright -->
-          <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
-            © 2021 Copyright:
-            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
           </div>
-          <!-- Copyright -->
-        </footer>
+          <div class="dropdown mx-2">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Ratings
+            </a>
 
-    <script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
-    <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
-    <script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+            <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-muted"></i>
+                <i class="fa-solid fa-star text-muted"></i>
+                <i class="fa-solid fa-star text-muted"></i>
+                <i class="fa-solid fa-star text-muted"></i>
+              </a>
+              <a class="dropdown-item" href="#">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-muted"></i>
+                <i class="fa-solid fa-star text-muted"></i>
+                <i class="fa-solid fa-star text-muted"></i>
+              </a>
+              <a class="dropdown-item" href="#">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-muted"></i>
+                <i class="fa-solid fa-star text-muted"></i>
+              </a>
+              <a class="dropdown-item" href="#">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-muted"></i>
+              </a>
+              <a class="dropdown-item" href="#">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+              </a>
+            </div>
+          </div>
+          <div class="dropdown mx-2">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Price
+            </a>
 
-    <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-    <script src="../assets/js/plugins/bootstrap-switch.js"></script>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">
+                <i class="fa-solid fa-peso-sign">1500 -</i>
+                <i class="fa-solid fa-peso-sign">2500</i>
+              </a>
+              <a class="dropdown-item" href="#">
+                <i class="fa-solid fa-peso-sign">2501 -</i>
+                <i class="fa-solid fa-peso-sign">3500</i>
+              </a>
+              <a class="dropdown-item" href="#">
+                <i class="fa-solid fa-peso-sign">3501 -</i>
+                <i class="fa-solid fa-peso-sign">4500</i>
+              </a>
+              <a class="dropdown-item" href="#">
+                <i class="fa-solid fa-peso-sign">4501 -</i>
+                <i class="fa-solid fa-peso-sign">Up...</i>
+              </a>
+            </div>
+          </div>
+          <div class="dropdown mx-2">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Deals
+            </a>
 
-    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-    <script src="../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#"><i class="fa-solid fa-circle-dollar-to-slot"> Discounted Item</i></a>
+              <a class="dropdown-item" href="#"><i class="fa-solid fa-gifts"> Gifts and Vouchers</i></a>
+              <a class="dropdown-item" href="#"><i class="fa-solid fa-fire-flame-curved"> Hot Products!</i></a>
+              <a class="dropdown-item" href="#"><i class="fa-solid fa-thumbs-up"> Best Seller</i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row search_page_item m-3">
+          <div class="col-3 p-3">
+            <img src="images/Shoes/Edited/Nike/1-SHoes.jpg" alt="">
+          </div>
+          <div class="col">
+            <div>
+              <h2 class="text-white mt-3">Air Jordan XXXVI low</h2>
+              <blockquote class="text-white">After-Sales Service Provided Video Technical Support · Application For
+                Commercial</blockquote>
+            </div>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star-half-stroke text-warning"> 4.5 star</i>
+            <div>
+              <hr class="bg-light">
+            </div>
+            <div>
+              <h4><i class="fa-solid fa-peso-sign text-white"> 5,260</i></h4>
+            </div>
+            <div class="d-flex">
+              <span class="badge badge-primary mx-1"><i class="fa-solid fa-phone text-white"> Contact Seller</i></span>
+              <span class="badge badge-info mx-1"><i class="fa-solid fa-comment-dots text-white"> Chat Now!</i></span>
+            </div>
+          </div>
+        </div>
+        <div class="row search_page_item m-3">
+          <div class="col-3 p-3">
+            <img src="images/Shoes/Edited/Nike/2.jpg" alt="">
+          </div>
+          <div class="col">
+            <div>
+              <h2 class="text-white mt-3">Jordan .5 'Why Not?'</h2>
+              <blockquote class="text-white">After-Sales Service Provided Video Technical Support · Application For
+                Commercial</blockquote>
+            </div>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star-half-stroke text-warning"> 4.5 star</i>
+            <div>
+              <hr class="bg-light">
+            </div>
+            <div>
+              <h4><i class="fa-solid fa-peso-sign text-white"> 3,500</i></h4>
+            </div>
+            <div class="d-flex">
+              <span class="badge badge-primary mx-1"><i class="fa-solid fa-phone text-white"> Contact Seller</i></span>
+              <span class="badge badge-info mx-1"><i class="fa-solid fa-comment-dots text-white"> Chat Now!</i></span>
+            </div>
+          </div>
+        </div>
+        <div class="row search_page_item m-3">
+          <div class="col-3 p-3">
+            <img src="images/Shoes/Edited/Fila/1.jpg" alt="">
+          </div>
+          <div class="col">
+            <div>
+              <h2 class="text-white mt-3">Fila Heritage Sneakers</h2>
+              <blockquote class="text-white">After-Sales Service Provided Video Technical Support · Application For
+                Commercial</blockquote>
+            </div>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star-half-stroke text-warning"> 4.5 star</i>
+            <div>
+              <hr class="bg-light">
+            </div>
+            <div>
+              <h4><i class="fa-solid fa-peso-sign text-white"> 6,952</i></h4>
+            </div>
+            <div class="d-flex">
+              <span class="badge badge-primary mx-1"><i class="fa-solid fa-phone text-white"> Contact Seller</i></span>
+              <span class="badge badge-info mx-1"><i class="fa-solid fa-comment-dots text-white"> Chat Now!</i></span>
+            </div>
+          </div>
+        </div>
+        <div class="row search_page_item m-3">
+          <div class="col-3 p-3">
+            <img src="images/Shoes/Edited/Fila/2.jpg" alt="">
+          </div>
+          <div class="col">
+            <div>
+              <h2 class="text-white mt-3">Fila Heritage QTR</h2>
+              <blockquote class="text-white">After-Sales Service Provided Video Technical Support · Application For
+                Commercial</blockquote>
+            </div>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star-half-stroke text-warning"> 4.5 star</i>
+            <div>
+              <hr class="bg-light">
+            </div>
+            <div>
+              <h4><i class="fa-solid fa-peso-sign text-white"> 5,260</i></h4>
+            </div>
+            <div class="d-flex">
+              <span class="badge badge-primary mx-1"><i class="fa-solid fa-phone text-white"> Contact Seller</i></span>
+              <span class="badge badge-info mx-1"><i class="fa-solid fa-comment-dots text-white"> Chat Now!</i></span>
+            </div>
+          </div>
+        </div>
+        <div class="row search_page_item m-3">
+          <div class="col-3 p-3">
+            <img src="images/Shoes/Edited/Puma/1.jpg" alt="">
+          </div>
+          <div class="col">
+            <div>
+              <h2 class="text-white mt-3">Low Top Lace Trainers</h2>
+              <blockquote class="text-white">After-Sales Service Provided Video Technical Support · Application For
+                Commercial</blockquote>
+            </div>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star-half-stroke text-warning"> 4.5 star</i>
+            <div>
+              <hr class="bg-light">
+            </div>
+            <div>
+              <h4><i class="fa-solid fa-peso-sign text-white"> 7,464</i></h4>
+            </div>
+            <div class="d-flex">
+              <span class="badge badge-primary mx-1"><i class="fa-solid fa-phone text-white"> Contact Seller</i></span>
+              <span class="badge badge-info mx-1"><i class="fa-solid fa-comment-dots text-white"> Chat Now!</i></span>
+            </div>
+          </div>
+        </div>
+        <div class="row search_page_item m-3">
+          <div class="col-3 p-3">
+            <img src="images/Shoes/Edited/Puma/2.jpg" alt="">
+          </div>
+          <div class="col">
+            <div>
+              <h2 class="text-white mt-3">Ca Pro Classic Sneakers</h2>
+              <blockquote class="text-white">After-Sales Service Provided Video Technical Support · Application For
+                Commercial</blockquote>
+            </div>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star-half-stroke text-warning"> 4.5 star</i>
+            <div>
+              <hr class="bg-light">
+            </div>
+            <div>
+              <h4><i class="fa-solid fa-peso-sign text-white"> 2,637</i></h4>
+            </div>
+            <div class="d-flex">
+              <span class="badge badge-primary mx-1"><i class="fa-solid fa-phone text-white"> Contact Seller</i></span>
+              <span class="badge badge-info mx-1"><i class="fa-solid fa-comment-dots text-white"> Chat Now!</i></span>
+            </div>
+          </div>
+        </div>
+        <div class="row search_page_item m-3">
+          <div class="col-3 p-3">
+            <img src="images/Shoes/Edited/UnderArmour/1.jpg" alt="">
+          </div>
+          <div class="col">
+            <div>
+              <h2 class="text-white mt-3">Machina 3 Daylight</h2>
+              <blockquote class="text-white">After-Sales Service Provided Video Technical Support · Application For
+                Commercial</blockquote>
+            </div>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star-half-stroke text-warning"> 4.5 star</i>
+            <div>
+              <hr class="bg-light">
+            </div>
+            <div>
+              <h4><i class="fa-solid fa-peso-sign text-white"> 4,444</i></h4>
+            </div>
+            <div class="d-flex">
+              <span class="badge badge-primary mx-1"><i class="fa-solid fa-phone text-white"> Contact Seller</i></span>
+              <span class="badge badge-info mx-1"><i class="fa-solid fa-comment-dots text-white"> Chat Now!</i></span>
+            </div>
+          </div>
+        </div>
+        <div class="row search_page_item m-3">
+          <div class="col-3 p-3">
+            <img src="images/Shoes/Edited/UnderArmour/2.jpg" alt="">
+          </div>
+          <div class="col">
+            <div>
+              <h2 class="text-white mt-3">Unisex Curry Flow Pod</h2>
+              <blockquote class="text-white">After-Sales Service Provided Video Technical Support · Application For
+                Commercial</blockquote>
+            </div>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star-half-stroke text-warning"> 4.5 star</i>
+            <div>
+              <hr class="bg-light">
+            </div>
+            <div>
+              <h4><i class="fa-solid fa-peso-sign text-white"> 2,547</i></h4>
+            </div>
+            <div class="d-flex">
+              <span class="badge badge-primary mx-1"><i class="fa-solid fa-phone text-white"> Contact Seller</i></span>
+              <span class="badge badge-info mx-1"><i class="fa-solid fa-comment-dots text-white"> Chat Now!</i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <footer class="text-center text-lg-start bg-light text-muted homepage_footer">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
 
-    <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker --><script src="../assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+      <!-- Right -->
+      <div class="mx-5">
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
 
-    <!--  Google Maps Plugin    -->
-    <script  src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4"><i class="fas fa-gem me-3"></i>Company name</h6>
+            <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit.</p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
 
 
-    <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
-    <script src="../assets/js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap.min.js"></script>
+  <script src="./assets/js/now-ui-kit.min.js"></script>
+
+
+  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+  <script src="./assets/js/plugins/bootstrap-switch.js"></script>
+
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+
+  <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+  <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+
+
+  <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
+
+  <!-- Flickity JS CDN -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 <script src="app.js"></script>
 <script src="./landing.js"></script>
+
 </html>
