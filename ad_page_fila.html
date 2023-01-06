@@ -1,222 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- icon -->
-    <link rel="icon" type="image/x-icon" href="./images/logo/Sample-with-purple-bg.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- icon -->
+  <link rel="icon" type="image/x-icon" href="./images/logo/Sample-with-purple-bg.png" />
 
-    <!-- CSS Files -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../assets/css/now-ui-kit.css?v=1.2.0" rel="stylesheet" />
-    <link rel="stylesheet" href="./style.css">
+  <!-- CSS Files -->
+  <link href="../kodego_grouping_project/assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../kodego_grouping_project/assets/css/now-ui-kit.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css">
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/1f5ccdbc5a.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1f5ccdbc5a.js" crossorigin="anonymous"></script>
 
-    <!-- Font Style -->
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Kanit&family=Knewave&family=Roboto&family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">    
-    <title>Shoe.com | Ad-Fila</title>
+  <!-- Flickity CSS CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
-    <Style>
-    
+  <!-- Font Style -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Kanit&family=Knewave&family=Roboto&family=Sansita+Swashed:wght@700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Fascinate&family=Macondo&family=Nanum+Gothic+Coding&family=New+Rocker&family=Outfit:wght@300&family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto+Mono&family=Roboto+Slab&family=Roboto:wght@300;400&family=Tiro+Bangla&family=Zen+Antique&display=swap"
+    rel="stylesheet">
+  <title>Shoe.com | Ad-Fila</title>
 
-    </Style>
+  <Style>
+
+
+  </Style>
 
 
 
 </head>
+
 <body>
-    <div class="d-flex justify-content-end upper_nav mx-3 bg-transparent">
-        <button class="bg-transparent"><span class="mx-3">Notifications</span></button>
-        <button class="bg-transparent"><span class="mx-2">Sign-Up</span></button>
-        <span>|</span>
-        <a href="./login.html"><button class="bg-transparent"><span class="mx-2">Login</span></button></a>
-    </div>
-    <div class="header">
-        <div class="row">
-            <div class="col-3">
-              <a href="./landing_page.html">
-                <img src="./images/logo/Logo-Transparent-Background.png" class="pt-2 px-5" alt="" width="" height="60px">
-              </a>
-            </div>  
-            <div class="col-5 header_searchBar">
-                <div class="form-group">
-                    <input type="text" class="form-control border rounded" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search...">
-                  </div>
-            </div>
-            <div class=" header_searchBtn">
-                <a href="./search_page.html">
-                    <button class="btn btn-primary btn-icon btn-round">
-                        <i class="fa-solid fa-magnifying-glass-dollar text-white p-1"></i>
-                    </button>
-                </a>
-            </div>
-            <div class="col-4 d-flex header_navigation mt-2 ">
-                <button type="button" class="btn bg-transparent border"><i class="fa-solid fa-cart-arrow-down text-white"></i></button>
-                <button type="button" class="btn bg-transparent btn-primary">HELP</button>
-                <span type="button" class="btn bg-transparent btn-primary">
-                    Follow Us!  
-                    <img src="./images/media_icons/facebook-logo-2019.png" alt="" class="mx-2">
-                    <img src="./images/media_icons/twitter.png" alt="" class="mx-2">
-                    <img src="./images/media_icons/instagram.png" alt="" class="mx-2">
-                </span>
-            </div>
+  <div class="d-flex justify-content-end upper_nav mx-3 bg-transparent">
+    <button class="bg-transparent"><span class="mx-3">Notifications</span></button>
+    <button class="bg-transparent"><span class="mx-2">Sign-Up</span></button>
+    <span>|</span>
+    <a href="./login.html"><button class="bg-transparent"><span class="mx-2">Login</span></button></a>
+  </div>
+  <div class="header">
+    <div class="row">
+      <div class="col-3">
+        <a href="./landing_page.html">
+          <img src="./images/logo/Logo-Transparent-Background.png" class="pt-2 px-5" alt="" width="" height="60px">
+        </a>
+      </div>
+      <div class="col-5 header_searchBar">
+        <div class="form-group">
+          <input type="text" class="form-control border rounded" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Search...">
         </div>
+      </div>
+      <div class=" header_searchBtn">
+        <a href="./search_page.html">
+          <button class="btn btn-primary btn-icon btn-round">
+            <i class="fa-solid fa-magnifying-glass-dollar text-white p-1"></i>
+          </button>
+        </a>
+      </div>
+      <div class="col-4 d-flex header_navigation mt-2 ">
+        <button type="button" class="btn bg-transparent border"><i
+            class="fa-solid fa-cart-arrow-down text-white"></i></button>
+        <button type="button" class="btn bg-transparent btn-primary">HELP</button>
+        <span type="button" class="btn bg-transparent btn-primary">
+          Follow Us!
+          <img src="./images/media_icons/facebook-logo-2019.png" alt="" class="mx-2">
+          <img src="./images/media_icons/twitter.png" alt="" class="mx-2">
+          <img src="./images/media_icons/instagram.png" alt="" class="mx-2">
+        </span>
+      </div>
     </div>
-    <div class="container_body mt-3 mb-3 ">
-        <div class="container shadow-lg ad_page_nike pt-5 pb-5">
-            <div class="">
-                <img src="./images/ad_images/Fila/fila-welcome.jpg" alt="">
-                <img src="./images/ad_images/Fila/about1.png" alt="">
-                <img src="images/ad_images/Fila/About-fila-Share-the-wealth.jpg" alt="">
-                <img src="images/ad_images/Fila/2joinjob.png" alt="">
-                ,<img src="images/ad_images/Fila/Your-life-Transition-3.jpg" alt="">
-            </div>  
+  </div>
+  <div class="container_body mt-3 mb-3 ">
+    <div class="container shadow-lg ad_page_nike pt-5 pb-5">
+      <div class="">
+        <img src="./images/ad_images/Fila/fila-welcome.jpg" alt="">
+        <img src="./images/ad_images/Fila/about1.png" alt="">
+        <img src="images/ad_images/Fila/About-fila-Share-the-wealth.jpg" alt="">
+        <img src="images/ad_images/Fila/2joinjob.png" alt="">
+        ,<img src="images/ad_images/Fila/Your-life-Transition-3.jpg" alt="">
+      </div>
 
-             
-                
-    
-            
-        </div>
+
+
+
+
     </div>
-    <br>
-        <footer class="text-center text-lg-start bg-light text-muted homepage_footer">
-          <!-- Section: Social media -->
-          <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-            <!-- Left -->
-            <div class="me-5 d-none d-lg-block">
-              <span>Get connected with us on social networks:</span>
-            </div>
-            <!-- Left -->
-  
-            <!-- Right -->
-            <div class="mx-5">
-              <a href="" class="me-4 text-reset">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="" class="me-4 text-reset">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="" class="me-4 text-reset">
-                <i class="fab fa-google"></i>
-              </a>
-              <a href="" class="me-4 text-reset">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="" class="me-4 text-reset">
-                <i class="fab fa-linkedin"></i>
-              </a>
-              <a href="" class="me-4 text-reset">
-                <i class="fab fa-github"></i>
-              </a>
-            </div>
-            <!-- Right -->
-          </section>
-          <!-- Section: Social media -->
-  
-          <!-- Section: Links  -->
-          <section class="">
-            <div class="container text-center text-md-start mt-5">
-              <!-- Grid row -->
-              <div class="row mt-3">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                  <!-- Content -->
-                  <h6 class="text-uppercase fw-bold mb-4"><i class="fas fa-gem me-3"></i>Company name</h6>
-                  <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <!-- Grid column -->
-  
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <!-- Links -->
-                  <h6 class="text-uppercase fw-bold mb-4">Products</h6>
-                  <p>
-                    <a href="#!" class="text-reset">Angular</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">React</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">Vue</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">Laravel</a>
-                  </p>
-                </div>
-                <!-- Grid column -->
-  
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <!-- Links -->
-                  <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
-                  <p>
-                    <a href="#!" class="text-reset">Pricing</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">Settings</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">Orders</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">Help</a>
-                  </p>
-                </div>
-                <!-- Grid column -->
-  
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                  <!-- Links -->
-                  <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                  <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-                  <p>
-                    <i class="fas fa-envelope me-3"></i>
-                    info@example.com
-                  </p>
-                  <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                  <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-                </div>
-                <!-- Grid column -->
-              </div>
-              <!-- Grid row -->
-            </div>
-          </section>
-          <!-- Section: Links  -->
-  
-          <!-- Copyright -->
-          <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
-            © 2021 Copyright:
-            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <br>
+  <footer class="text-center text-lg-start bg-light text-muted homepage_footer">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div class="mx-5">
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4"><i class="fas fa-gem me-3"></i>Company name</h6>
+            <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit.</p>
           </div>
-          <!-- Copyright -->
-        </footer>    
+          <!-- Grid column -->
 
- 
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 
 
 
-    <script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
-    <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
-    <script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-
-    <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-    <script src="../assets/js/plugins/bootstrap-switch.js"></script>
-
-    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-    <script src="../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-
-    <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker --><script src="../assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
-
-    <!--  Google Maps Plugin    -->
-    <script  src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
 
 
-    <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
-    <script src="../assets/js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+
+
+  <script src="./assets/js/core/bootstrap.min.js"></script>
+  <script src="./assets/js/now-ui-kit.min.js"></script>
+
+
+  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+  <script src="./assets/js/plugins/bootstrap-switch.js"></script>
+
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+
+  <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+  <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+
+
+  <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
+
+  <!-- Flickity JS CDN -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 <script src="app.js"></script>
 <script src="./landing.js"></script>
+
 </html>
